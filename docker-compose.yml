@@ -1,0 +1,7 @@
+version: '3.4'
+
+services:
+  aiomultitask:
+    build:
+      dockerfile: Dockerfile
+      context: .
